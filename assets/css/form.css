@@ -1,0 +1,89 @@
+header {
+    padding-bottom: 80px;
+    margin-bottom: 5px;
+    border-bottom: solid 5px black;
+}
+
+form {
+    display: block;
+}
+
+.content {
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 1 1 40vw;
+    justify-content: center;
+}
+
+.dot {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color: #dede66;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.left-box {
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    width: 50vw;
+    float: left;
+    border: solid black 5px;
+    padding: 7.5vh 25px 7.5vh 25px;
+    justify-content: center;
+    height: 40vh;
+    min-height: 400px;
+    min-width: 300px;
+    margin: 0 2.5px 0 2.5px;
+}
+
+.box {
+    font-family: sans-serif;
+    width: 50vw;
+    float: right;
+    /* text-align: left; */
+    border: solid black 5px;
+    padding: 12vh 25px 3vh 25px;
+    justify-content: center;
+    height: 40vh;
+    min-height: 400px;
+    margin: 0 2.5px 0 2.5px;
+}
+
+.box h2 {
+    text-align: center;
+}
+
+.box label {
+    display: block;
+
+}
+
+#username,
+#title,
+#content,
+#submit {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 18px;
+    margin-bottom: 20px;
+    height: fit-content;
+  }
+
+/* #content {
+    height: 50px;
+} */
+
+#submit {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    height: fit-content;
+}
