@@ -5,10 +5,16 @@ contentEl = document.getElementById("content")
 
 submitButton.addEventListener("click", function (event) {
     event.preventDefault();
-    savePost();
+    // Check for empty form inputs
+    if (username.value.trim() == '' || title.value.trim() == '' || content.value.trim() == '') {
+        alert("Please Enter Valid Inputs.")
+    } else {
+        savePost();
+    }
+})
 
 function savePost() {
-    // Save related form data as an object
+    // Save related form data as an object, append to existing array in storage and flatten back to JSON
     const blogPost = {
         username: usernameEl.value.trim(),
         title: titleEl.value.trim(),
@@ -21,8 +27,10 @@ function savePost() {
         blogPosts = [blogPost]
     }
     
-    // Use .setItem() to store object in storage and JSON.stringify to convert it as a string
+    // Use .setItem() to store array object in storage and JSON.stringify to convert it as a string
     localStorage.setItem('blogPosts', JSON.stringify(blogPosts));
-    }
+
+    //Switch to blog page
     window.location.href = "blog.html";
-})
+    }
+    
