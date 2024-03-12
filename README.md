@@ -3,7 +3,7 @@ This application allows the user to create and maintain a personal blog.
 
 Built Application: https://kaitlinnowell.github.io/personal-blog/
 
-The application conatins a form that allows the user to submit new blog posts:
+The application contains a form that allows the user to submit new blog posts:
 
 ![New Blog Post Entry Form](assets/images/form.png)
 
