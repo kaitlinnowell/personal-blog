@@ -27,7 +27,7 @@ function savePost() {
         blogPosts = [blogPost]
     }
     
-    // Use .setItem() to store array object in storage and JSON.stringify to convert it as a string
+    // Use .setItem() to store array object in storage and JSON.stringify to convert it to a string
     localStorage.setItem('blogPosts', JSON.stringify(blogPosts));
 
     //Switch to blog page

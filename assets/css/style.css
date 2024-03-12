@@ -3,6 +3,7 @@
   font-family: sans-serif;
 }
 
+/* Header Styling */
 header nav {
     float: right;
     margin-right: 20px;
@@ -21,11 +22,11 @@ header nav p {
     height: 100vh;
     color: #bebebe
    
-  }
+}
 
 /* Light Mode */
 .light {
     background-color: #f0ead6;
     color: black;
     height: 100vh;
-  }
+}

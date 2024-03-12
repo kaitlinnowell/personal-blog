@@ -39,7 +39,7 @@ function renderBlog() {
 
 // The init() function fires when the page is loaded
 function init() {
-    // When the init function is executed, the code inside renderLastGrade function will also execute
+    // When the init function is executed, the code inside renderBlog function will also execute
     renderBlog();
   }
   init();

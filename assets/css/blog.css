@@ -1,3 +1,4 @@
+/* Header Styling */
 header {
     padding-bottom: 0px;
     margin-bottom: 5px;
@@ -14,18 +15,7 @@ header nav input {
     margin-right: 20px;
 }
 
-footer {
-    border-top: solid 5px black;
-    margin-top: 5px;
-}
-footer h4 {
-    text-align: center;
-}
-
-footer ul {
-    list-style: none;
-}
-
+/* Blog Post Styling */
 #blog li {
     list-style: none;
     border: solid 1px black;
@@ -48,4 +38,17 @@ footer ul {
     font-style: normal;
     color: gray;
     margin-left: 5px;
+}
+
+/* Footer Styling */
+footer {
+    border-top: solid 5px black;
+    margin-top: 5px;
+}
+footer h4 {
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
 }

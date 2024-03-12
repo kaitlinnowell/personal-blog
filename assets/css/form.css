@@ -15,6 +15,7 @@ form {
     justify-content: center;
 }
 
+/* Drawing the Yellow Circle */
 .dot {
     display: flex;
     height: 300px;
@@ -28,6 +29,7 @@ form {
     color: white;
 }
 
+/* Left Box Formatting */
 .left-box {
     display: flex;
     align-items: center;
@@ -43,6 +45,7 @@ form {
     margin: 0 2.5px 0 2.5px;
 }
 
+/* Right Box Formatting */
 .box {
     font-family: sans-serif;
     width: 50vw;
@@ -62,9 +65,9 @@ form {
 
 .box label {
     display: block;
-
 }
 
+/* User Input Styling */
 #username,
 #title,
 #content,
@@ -75,11 +78,7 @@ form {
     font-size: 18px;
     margin-bottom: 20px;
     height: fit-content;
-  }
-
-/* #content {
-    height: 50px;
-} */
+}
 
 #submit {
     background-color: black;
